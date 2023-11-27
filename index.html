@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliana Gomes- Curadoria de materiais Terapêuticos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.cards').slick({
+            slidesToShow: 3, 
+            slidesToScroll: 1, 
+            autoplay: true, 
+            autoplaySpeed: 2000 
+        });
+    });
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Seu Logo" style="max-width: 200px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#destaques">Destaques</a></li>
+                <li><a href="#analises">Análises</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Categorias</a>
+                    <div class="dropdown-content">
+                        <a href="#habilidades-cognitivas">Habilidades Cognitivas</a>
+                        <a href="#coordenacao-motora">Coordenação Motora</a>
+                        <a href="#alimentacao">Alimentação</a>
+                        <a href="#habilidades-sociais">Habilidades Sociais</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+       
+    </div>
+
+    <div id="jogos">
+        <h2>Jogos em Destaque</h2>
+        <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+                <img src="dobble classico.png">
+            </label>
+            <label class="card" for="item-2" id="song-2">
+                <img src="dobble disney 100.jpg">
+            </label>
+            <label class="card" for="item-3" id="song-3">
+                <img src="marvel.webp">
+            </label>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OLLe_SSbkpw?si=3ihJ2LswMcuQy8dz" frameborder="0" allowfullscreen></iframe>
+</div>
+    </div>
+
+    <section id="Perfil">
+        <h2>Não quero perder nada</h2>
+        <a href="https://www.instagram.com/terapeutajulianagomes/" target="_blank" rel="noopener noreferrer">Siga-nos no Instagram</a>
+
+    </section>
+
+    <section id="analises">
+        <h2>Análises e Resenhas</h2>
+        
+    </section>
+
+    <section id="comparacao">
+        <h2>Comparação de Preços</h2>
+
+    </section>
+<footer><section id="rodape">
+        <p>&copy; 2023 Juliana Gomes - Curadoria de Materiais Terapêuticos | Desenvolvido por Juliana Gomes</p>
+    </section>
+</footer>
+    
+   
+</body>
+</html>

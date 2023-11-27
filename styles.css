@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+
+#rodape {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+
+#jogos .cards img {
+    max-width: 100%; 
+    height: auto; 
+}
+<div id="jogos">
+    <h2>Jogos em Destaque</h2>
+    <div class="cards">
+        <div><img src="dobble classico.png" alt="Dobble Clássico"></div>
+        <div><img src="dobble disney 100.jpg" alt="Dobble Disney"></div>
+        <div><img src="dobble palmeiras.jpeg" alt="Dobble Palmeiras"></div>
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+</div>
+
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        font-size: 14px; 
+    }
+}
